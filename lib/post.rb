@@ -4,6 +4,6 @@ class Post
   @@all = [] 
   def initialize(title)
     self.title = title
-    @@all << sel f
+    @@all << self
   end
 end 
