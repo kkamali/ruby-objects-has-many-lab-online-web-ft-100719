@@ -10,5 +10,12 @@ class Post
   
   def self.all 
     @@all
+  end
+  
+  def author_name 
+    if self.author != nil 
+      return self.author.name
+    else
+    end
   end 
 end 
